@@ -6,6 +6,7 @@
 * sudo systemctl status httpd.service
 * yum provides *bin/dig
 * sudo journalctl -u httpd.service
+* sudo firewall-cmd --list-all (checken of firewall belangrijke poorten(nrs) zoals dns (53) en http (80) enzovoort niet blokkeert)
 * curl -k 'url webpagina'
 * nslookup (dns-server request sturen)
 
